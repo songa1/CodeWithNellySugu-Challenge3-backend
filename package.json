@@ -1,0 +1,16 @@
+{
+  "name": "challengethree",
+  "version": "1.0.0",
+  "description": "This is the challenge three in code with nelly sugu challege",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "Achille Songa",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "presets": ["@babel/preset-env"]
+}
