@@ -8,4 +8,4 @@ app.listen(port, () => {
     console.log("Server running on port 5000")
 })
 
-app.get('/api/albums', getAlbums)
+app.get('/api/albums/:id', getAlbums)
